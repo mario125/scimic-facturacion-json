@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\GIT_HUB\\scimic_json\\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\\GENERA JSON\\ConsoleApp1\\ConsoleApp1.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
