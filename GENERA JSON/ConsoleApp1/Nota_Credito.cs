@@ -253,7 +253,7 @@ namespace ConsoleApp1
                                     {
                                         'ID' : [ 
                                             {
-                                                'IdentifierContent' : ''
+                                                'IdentifierContent' : '-'
                                             }
                                         ],
                                         'StreetName' : [ 
@@ -268,12 +268,12 @@ namespace ConsoleApp1
                                         ],
                                         'CountrySubentity' : [ 
                                             {
-                                                'TextContent' : ''
+                                                'TextContent' : '-'
                                             }
                                         ],
                                         'District' : [ 
                                             {
-                                                'TextContent' : ''
+                                                'TextContent' : '-'
                                             }
                                         ],
                                         'Country' : [ 

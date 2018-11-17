@@ -1,9 +1,9 @@
 {
-  "_D": "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2",
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2",
   "_S": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
   "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
   "_E": "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
-  "CreditNote": [
+  "DebitNote": [
     {
       "UBLVersionID": [
         {
@@ -22,12 +22,12 @@
       ],
       "IssueDate": [
         {
-          "DateContent": "2018-10-20"
+          "DateContent": "11:00:57"
         }
       ],
       "IssueTime": [
         {
-          "DateTimeContent": "05:25:36"
+          "DateTimeContent": "11:00:57"
         }
       ],
       "Note": [
@@ -50,7 +50,7 @@
           ],
           "ResponseCode": [
             {
-              "CodeContent": "08"
+              "CodeContent": "02"
             }
           ],
           "Description": [
@@ -82,7 +82,7 @@
         {
           "ID": [
             {
-              "IdentifierContent": "IDSignature"
+              "IdentifierContent": "IDSignatureContratistas"
             }
           ],
           "SignatoryParty": [
@@ -113,7 +113,7 @@
                 {
                   "URI": [
                     {
-                      "TextContent": "IDSignature"
+                      "TextContent": "IDSignatureContratistas"
                     }
                   ]
                 }
@@ -183,10 +183,10 @@
                   "CompanyID": [
                     {
                       "IdentifierContent": "20505161051",
+                      "IdentificationSchemeIdentifier": "6",
                       "IdentificationSchemeNameText": "SUNAT:Identificador de Documento de Identidad",
                       "IdentificationSchemeAgencyNameText": "PE:SUNAT",
-                      "IdentificationSchemeUniformResourceIdentifier": "urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06",
-                      "IdentificationSchemeIdentifier": "6"
+                      "IdentificationSchemeUniformResourceIdentifier": "urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06"
                     }
                   ],
                   "RegistrationAddress": [
@@ -212,7 +212,7 @@
                 {
                   "ID": [
                     {
-                      "IdentifierContent": ""
+                      "IdentifierContent": "-"
                     }
                   ],
                   "StreetName": [
@@ -227,12 +227,12 @@
                   ],
                   "CountrySubentity": [
                     {
-                      "TextContent": ""
+                      "TextContent": "-"
                     }
                   ],
                   "District": [
                     {
-                      "TextContent": ""
+                      "TextContent": "-"
                     }
                   ],
                   "Country": [
@@ -256,10 +256,10 @@
                   "CompanyID": [
                     {
                       "IdentifierContent": "20601078946",
+                      "IdentificationSchemeIdentifier": "6",
                       "IdentificationSchemeNameText": "SUNAT:Identificador de Documento de Identidad",
                       "IdentificationSchemeAgencyNameText": "PE:SUNAT",
-                      "IdentificationSchemeUniformResourceIdentifier": "urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06",
-                      "IdentificationSchemeIdentifier": "6"
+                      "IdentificationSchemeUniformResourceIdentifier": "urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06"
                     }
                   ],
                   "RegistrationAddress": [
@@ -277,7 +277,7 @@
                 {
                   "ElectronicMail": [
                     {
-                      "TextContent": ""
+                      "TextContent": "fmontes@efact.pe"
                     }
                   ]
                 }
@@ -320,7 +320,7 @@
                   ],
                   "Percent": [
                     {
-                      "NumericContent": 18
+                      "NumericContent": 18.0
                     }
                   ],
                   "TaxScheme": [
@@ -350,7 +350,7 @@
           ]
         }
       ],
-      "LegalMonetaryTotal": [
+      "RequestedMonetaryTotal": [
         {
           "LineExtensionAmount": [
             {
@@ -372,7 +372,7 @@
           ]
         }
       ],
-      "CreditNoteLine": [
+      "DebitNoteLine": [
         {
           "ID": [
             {
@@ -384,7 +384,7 @@
               "TextContent": "NIU"
             }
           ],
-          "CreditedQuantity": [
+          "DebitedQuantity": [
             {
               "QuantityContent": "1.00",
               "QuantityUnitCode": "NIU",
@@ -443,7 +443,7 @@
                     {
                       "ID": [
                         {
-                          "IdentifierContent": "S",
+                          "IdentifierContent": "10",
                           "IdentificationSchemeIdentifier": "UN/ECE 5305",
                           "IdentificationSchemeNameText": "Tax Category Identifier",
                           "IdentificationSchemeAgencyNameText": "United Nations Economic Commission for Europe"
@@ -507,7 +507,7 @@
               "PriceAmount": [
                 {
                   "AmountCurrencyIdentifier": "45.000",
-                  "AmountContent": "100.0000"
+                  "AmountContent": "10.0000"
                 }
               ]
             }

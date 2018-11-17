@@ -157,3 +157,12 @@ D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - c
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\Signature\obj\Debug\Signature.csproj.CopyComplete
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\Signature\obj\Debug\Signature.dll
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\Signature\obj\Debug\Signature.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\bin\Debug\Signature.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\bin\Debug\Signature.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\bin\Debug\businessEntities.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\bin\Debug\businessEntities.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\obj\Debug\Signature.csprojAssemblyReference.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\obj\Debug\Signature.csproj.CoreCompileInputs.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\obj\Debug\Signature.csproj.CopyComplete
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\obj\Debug\Signature.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\Signature\obj\Debug\Signature.pdb

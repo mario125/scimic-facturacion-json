@@ -197,3 +197,15 @@ D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - c
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\CPEEnvio\obj\Debug\CPEEnvio.dll
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\CPEEnvio\obj\Debug\CPEEnvio.xml
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\CPEEnvio\obj\Debug\CPEEnvio.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\bin\Debug\CPEEnvio.dll.config
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\bin\Debug\CPEEnvio.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\bin\Debug\CPEEnvio.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\bin\Debug\CPEEnvio.xml
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.vbprojAssemblyReference.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.Resources.resources
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.vbproj.GenerateResource.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.vbproj.CoreCompileInputs.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.vbproj.CopyComplete
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.xml
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CPEEnvio\obj\Debug\CPEEnvio.pdb

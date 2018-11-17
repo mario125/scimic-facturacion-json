@@ -77,7 +77,7 @@ Public Class Form1
         Try
             'Connection = New OdbcConnection(con)
             'Connection = New OdbcConnection("Driver={PostgreSQL UNICODE};Server=190.187.129.25;Port=5432;Database=agil_camal; Uid=postgres;Pwd=Scimic?Developer?479;")
-            Connection = New OdbcConnection("Driver={PostgreSQL UNICODE};Server=localhost;Port=5434;Database=scimic; Uid=postgres;Pwd=Scimic?Developer?479t;")
+            Connection = New OdbcConnection("Driver={PostgreSQL UNICODE};Server=localhost;Port=5434;Database=scimic; Uid=postgres;Pwd=root;")
             If Connection.State = ConnectionState.Closed Then
                 Connection.Open()
             End If

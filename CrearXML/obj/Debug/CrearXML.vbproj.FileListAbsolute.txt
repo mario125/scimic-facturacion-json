@@ -268,3 +268,16 @@ D:\GIT_HUB\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia
 D:\GIT_HUB\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\CrearXML\obj\Debug\CrearXML.dll
 D:\GIT_HUB\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\CrearXML\obj\Debug\CrearXML.xml
 D:\GIT_HUB\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\CrearXML\obj\Debug\CrearXML.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\bin\Debug\CrearXML.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\bin\Debug\CrearXML.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\bin\Debug\CrearXML.xml
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\bin\Debug\businessEntities.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\bin\Debug\businessEntities.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.vbprojAssemblyReference.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.Resources.resources
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.vbproj.GenerateResource.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.vbproj.CoreCompileInputs.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.vbproj.CopyComplete
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.xml
+D:\git hub\Scimic nuevo\scimic-facturacion-json\CrearXML\obj\Debug\CrearXML.pdb

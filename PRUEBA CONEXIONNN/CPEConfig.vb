@@ -98,11 +98,11 @@ Public Class CPEConfig
 
         'Debito
         If (CPE.TIPO_PROCESO = 3) Then
-            '===================configuracion de rutas===================
+            ' ===================configuracion de rutas===================
             ruta = rutaFicheroINI & "CPE\XML\"
 
 
-            '===================creamos xml(comprobante)====================
+            ' ===================creamos xml(comprobante)====================
             If CPE.COD_TIPO_DOCUMENTO = "01" Or CPE.COD_TIPO_DOCUMENTO = "03" Then
                 dictionary = JS3.NOTA_DEBITO(CPE, ruta, nomARCHIVO)
             ElseIf CPE.COD_TIPO_DOCUMENTO = "07" Then

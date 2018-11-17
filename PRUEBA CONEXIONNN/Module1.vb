@@ -113,7 +113,7 @@ Module Module1
                 objCPE.USUARIO_SOL_EMPRESA = SqlDR("usuario_sol").ToString
                 objCPE.PASS_SOL_EMPRESA = scimic.Desencripta(SqlDR("pass_sol").ToString, "MARIO125")
                 objCPE.CONTRA_FIRMA = scimic.Desencripta(SqlDR("contra_firma"), "MARIO125")
-                objCPE.TIPO_PROCESO = 2 '1=PRODUCCION, 2=HOMOLOGACION, 3=BETA 
+                objCPE.TIPO_PROCESO = 3 '1=PRODUCCION, 2=HOMOLOGACION, 3=BETA 
             End While
             '_______________________________DATOS DEL DOCUMENTO  A EMITIR_____________________________
             cmd2.Connection = Form1.Connection

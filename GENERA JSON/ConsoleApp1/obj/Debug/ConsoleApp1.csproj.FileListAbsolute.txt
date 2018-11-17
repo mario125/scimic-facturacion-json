@@ -83,3 +83,17 @@ D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - c
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 D:\git hub\git\scimic-Json1.0\SISTEMA DE FACTURACION _________________LIMPIA - copia (2)\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\businessEntities.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\businessEntities.pdb
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.reporte.resources
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.GenerateResource.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\git hub\Scimic nuevo\scimic-facturacion-json\GENERA JSON\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

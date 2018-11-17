@@ -57,35 +57,35 @@ namespace ConsoleApp1
                 ],
                 'ID' : [ 
                     {
-                        'IdentifierContent' : 'FF01-00000015'
+                        'IdentifierContent' : '"; json = json + da.NRO_COMPROBANTE + @"'
                     }
                 ],
                 'IssueDate' : [ 
                     {
-                        'DateContent' : '2018-06-25'
+                        'DateContent' : '"; json = json + DateTime.Now.ToString("hh:mm:ss") + @"'
                     }
                 ],
                 'IssueTime' : [ 
                     {
-                        'DateTimeContent' : '14:46:42'
+                        'DateTimeContent' : '"; json = json + DateTime.Now.ToString("hh:mm:ss") + @"'
                     }
                 ],
                 'Note' : [ 
                     {
-                        'TextContent' : 'VEINTE Y TRES Y 60/100 SOLES',
+                        'TextContent' : '"; json = json + da.TOTAL_LETRAS + @"',
                         'LanguageLocaleIdentifier' : '1000'
                     }
                 ],
                 'DocumentCurrencyCode' : [ 
                     {
-                        'CodeContent' : 'PEN'
+                        'CodeContent' : '"; json = json + da.COD_MONEDA + @"'
                     }
                 ],
                 'DiscrepancyResponse' : [ 
                     {
                         'ReferenceID' : [ 
                             {
-                                'IdentifierContent' : 'FF01-00012'
+                                'IdentifierContent' : '"; json = json + da.SERIE + da.NRO_COMPROBANTE + @"'
                             }
                         ],
                         'ResponseCode' : [ 
@@ -95,7 +95,7 @@ namespace ConsoleApp1
                         ],
                         'Description' : [ 
                             {
-                                'TextContent' : 'Aumento en el valor'
+                                'TextContent' : '"; json = json + da.DESCRIPCION_MOTIVO + @"'
                             }
                         ]
                     }
@@ -106,12 +106,12 @@ namespace ConsoleApp1
                             {
                                 'ID' : [ 
                                     {
-                                        'IdentifierContent' : 'FF01-00012'
+                                        'IdentifierContent' : '"; json = json + da.SERIE + da.NRO_COMPROBANTE + @"'
                                     }
                                 ],
                                 'DocumentTypeCode' : [ 
                                     {
-                                        'CodeContent' : '01'
+                                        'CodeContent' : '"; json = json + da.TIPO_COMPROBANTE_MODIFICA + @"'
                                     }
                                 ]
                             }
@@ -131,7 +131,7 @@ namespace ConsoleApp1
                                     {
                                         'ID' : [ 
                                             {
-                                                'IdentifierContent' : '20101049711'
+                                                'IdentifierContent' : '"; json = json + da.NRO_DOCUMENTO_EMPRESA + @"'
                                             }
                                         ]
                                     }
@@ -140,7 +140,7 @@ namespace ConsoleApp1
                                     {
                                         'Name' : [ 
                                             {
-                                                'TextContent' : 'CONTRATISTAS S.A.C.'
+                                                'TextContent' : '"; json = json + da.RAZON_SOCIAL_EMPRESA + @"'
                                             }
                                         ]
                                     }
@@ -170,7 +170,7 @@ namespace ConsoleApp1
                                     {
                                         'Name' : [ 
                                             {
-                                                'TextContent' : 'CONTRATISTAS S.A.C.'
+                                                'TextContent' : '"; json = json + da.NOMBRE_COMERCIAL_EMPRESA + @"'
                                             }
                                         ]
                                     }
@@ -179,34 +179,34 @@ namespace ConsoleApp1
                                     {
                                         'ID' : [ 
                                             {
-                                                'IdentifierContent' : '150122'
+                                                'IdentifierContent' : '"; json = json + da.CODIGO_UBIGEO_EMPRESA + @"'
                                             }
                                         ],
                                         'StreetName' : [ 
                                             {
-                                                'TextContent' : 'Av. Los Dominicos 155'
+                                                'TextContent' : '"; json = json + da.DIRECCION_EMPRESA + @"'
                                             }
                                         ],
                                         'CityName' : [ 
                                             {
-                                                'TextContent' : 'LIMA'
+                                                'TextContent' : '"; json = json + da.DEPARTAMENTO_EMPRESA + @"'
                                             }
                                         ],
                                         'CountrySubentity' : [ 
                                             {
-                                                'TextContent' : 'LIMA'
+                                                'TextContent' : '"; json = json + da.PROVINCIA_EMPRESA + @"'
                                             }
                                         ],
                                         'District' : [ 
                                             {
-                                                'TextContent' : 'MIRAFLORES'
+                                                'TextContent' : '"; json = json + da.DISTRITO_EMPRESA + @"'
                                             }
                                         ],
                                         'Country' : [ 
                                             {
                                                 'IdentificationCode' : [ 
                                                     {
-                                                        'IdentifierContent' : 'PE'
+                                                        'IdentifierContent' :'"; json = json + da.CODIGO_PAIS_EMPRESA + @"'
                                                     }
                                                 ]
                                             }
@@ -217,13 +217,13 @@ namespace ConsoleApp1
                                     {
                                         'RegistrationName' : [ 
                                             {
-                                                'TextContent' : 'CONTRATISTAS S.A.C.'
+                                                'TextContent' : '"; json = json + da.RAZON_SOCIAL_EMPRESA + @"'
                                             }
                                         ],
                                         'CompanyID' : [ 
                                             {
-                                                'IdentifierContent' : '20101049711',
-                                                'IdentificationSchemeIdentifier' : '6',
+                                                'IdentifierContent' : '"; json = json + da.NRO_DOCUMENTO_EMPRESA + @"',
+                                                'IdentificationSchemeIdentifier' :'"; json = json + da.TIPO_DOCUMENTO_EMPRESA + @"',
                                                 'IdentificationSchemeNameText' : 'SUNAT:Identificador de Documento de Identidad',
                                                 'IdentificationSchemeAgencyNameText' : 'PE:SUNAT',
                                                 'IdentificationSchemeUniformResourceIdentifier' : 'urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06'
@@ -252,27 +252,27 @@ namespace ConsoleApp1
                                     {
                                         'ID' : [ 
                                             {
-                                                'IdentifierContent' : '150122'
+                                                'IdentifierContent' : '-'
                                             }
                                         ],
                                         'StreetName' : [ 
                                             {
-                                                'TextContent' : 'AV. LARCO 1301 1602 '
+                                                'TextContent' :  '"; json = json + da.DIRECCION_CLIENTE + @"'
                                             }
                                         ],
                                         'CityName' : [ 
                                             {
-                                                'TextContent' : 'LIMA'
+                                                'TextContent' : '"; json = json + da.CIUDAD_CLIENTE + @"'
                                             }
                                         ],
                                         'CountrySubentity' : [ 
                                             {
-                                                'TextContent' : 'LIMA'
+                                                'TextContent' : '-'
                                             }
                                         ],
                                         'District' : [ 
                                             {
-                                                'TextContent' : 'MIRAFLORES'
+                                                'TextContent' : '-'
                                             }
                                         ],
                                         'Country' : [ 
@@ -290,13 +290,13 @@ namespace ConsoleApp1
                                     {
                                         'RegistrationName' : [ 
                                             {
-                                                'TextContent' : 'EFACT S.A.C.'
+                                                'TextContent' : '"; json = json + da.RAZON_SOCIAL_CLIENTE + @"'
                                             }
                                         ],
                                         'CompanyID' : [ 
                                             {
-                                                'IdentifierContent' : '20551093035',
-                                                'IdentificationSchemeIdentifier' : '6',
+                                                'IdentifierContent' : '"; json = json + da.NRO_DOCUMENTO_CLIENTE + @"',
+                                                'IdentificationSchemeIdentifier' : '"; json = json + da.TIPO_DOCUMENTO_CLIENTE + @"',
                                                 'IdentificationSchemeNameText' : 'SUNAT:Identificador de Documento de Identidad',
                                                 'IdentificationSchemeAgencyNameText' : 'PE:SUNAT',
                                                 'IdentificationSchemeUniformResourceIdentifier' : 'urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06'
@@ -330,22 +330,22 @@ namespace ConsoleApp1
                     {
                         'TaxAmount' : [ 
                             {
-                                'AmountContent' : '3.60',
-                                'AmountCurrencyIdentifier' : 'PEN'
+                                'AmountContent' : '"; json = json + da.TOTAL_IGV + @"',
+                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                             }
                         ],
                         'TaxSubtotal' : [ 
                             {
                                 'TaxableAmount' : [ 
                                     {
-                                        'AmountContent' : '20.00',
-                                        'AmountCurrencyIdentifier' : 'PEN'
+                                        'AmountContent' : '"; json = json + da.SUB_TOTAL + @"',
+                                        'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                                     }
                                 ],
                                 'TaxAmount' : [ 
                                     {
-                                        'AmountContent' : '3.60',
-                                        'AmountCurrencyIdentifier' : 'PEN'
+                                        'AmountContent' : '"; json = json + da.TOTAL_IGV + @"',
+                                        'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                                     }
                                 ],
                                 'TaxCategory' : [ 
@@ -394,48 +394,52 @@ namespace ConsoleApp1
                     {
                         'LineExtensionAmount' : [ 
                             {
-                                'AmountContent' : '20.00',
-                                'AmountCurrencyIdentifier' : 'PEN'
+                                'AmountContent' : '"; json = json + da.TOTAL + @"',
+                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                             }
                         ],
                         'TaxInclusiveAmount' : [ 
                             {
-                                'AmountContent' : '23.60',
-                                'AmountCurrencyIdentifier' : 'PEN'
+                                'AmountContent' : '"; json = json + da.TOTAL_GRAVADAS + @"',
+                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                             }
                         ],
                         'PayableAmount' : [ 
                             {
-                                'AmountContent' : '23.60',
-                                'AmountCurrencyIdentifier' : 'PEN'
+                                'AmountContent' : '"; json = json + da.TOTAL_GRAVADAS + @"',
+                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                             }
                         ]
                     }
                 ],
-                'DebitNoteLine' : [ 
-                    {
-                        'ID' : [ 
+
+                'DebitNoteLine' : [ ";
+            for (int i = 0; i <= da.detalle.Count() - 1; i++)
+            {
+
+                json = json + @"{
+                    'ID' : [ 
                             {
-                                'IdentifierContent' : 1
+                                'IdentifierContent' : "; json = json + da.detalle[i].ITEM + @"
                             }
                         ],
                         'Note' : [ 
                             {
-                                'TextContent' : 'unidad'
+                                'TextContent' : '"; json = json + da.detalle[i].UNIDAD_MEDIDA + @"'
                             }
                         ],
                         'DebitedQuantity' : [ 
                             {
-                                'QuantityContent' : '2',
-                                'QuantityUnitCode' : 'ZZ',
+                                'QuantityContent' : '"; json = json + da.detalle[i].CANTIDAD + @"',
+                                'QuantityUnitCode' : '"; json = json + da.detalle[i].UNIDAD_MEDIDA + @"',
                                 'QuantityUnitCodeListIdentifier' : 'UN/ECE rec 20',
                                 'QuantityUnitCodeListAgencyNameText' : 'United Nations Economic Commission for Europe'
                             }
                         ],
                         'LineExtensionAmount' : [ 
                             {
-                                'AmountContent' : '20.00',
-                                'AmountCurrencyIdentifier' : 'PEN'
+                                'AmountContent' : '"; json = json + da.detalle[i].PRECIO_SIN_IMPUESTO + @"',
+                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                             }
                         ],
                         'PricingReference' : [ 
@@ -444,8 +448,8 @@ namespace ConsoleApp1
                                     {
                                         'PriceAmount' : [ 
                                             {
-                                                'AmountContent' : '11.8000',
-                                                'AmountCurrencyIdentifier' : 'PEN'
+                                                'AmountContent' : '"; json = json + da.detalle[i].SUB_TOTAL + @"',
+                                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                                             }
                                         ],
                                         'PriceTypeCode' : [ 
@@ -461,29 +465,29 @@ namespace ConsoleApp1
                             {
                                 'TaxAmount' : [ 
                                     {
-                                        'AmountContent' : '3.60',
-                                        'AmountCurrencyIdentifier' : 'PEN'
+                                        'AmountContent' : '"; json = json + da.detalle[i].IGV + @"',
+                                        'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                                     }
                                 ],
                                 'TaxSubtotal' : [ 
                                     {
                                         'TaxableAmount' : [ 
                                             {
-                                                'AmountContent' : '23.60',
-                                                'AmountCurrencyIdentifier' : 'PEN'
+                                                'AmountContent' : '"; json = json + da.detalle[i].IMPORTE + @"',
+                                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                                             }
                                         ],
                                         'TaxAmount' : [ 
                                             {
-                                                'AmountContent' : '3.60',
-                                                'AmountCurrencyIdentifier' : 'PEN'
+                                                'AmountContent' : '"; json = json + da.detalle[i].IGV + @"',
+                                                'AmountCurrencyIdentifier' : '"; json = json + da.COD_MONEDA + @"'
                                             }
                                         ],
                                         'TaxCategory' : [ 
                                             {
                                                 'ID' : [ 
                                                     {
-                                                        'IdentifierContent' : 'S',
+                                                        'IdentifierContent' : '"; json = json + da.detalle[i].COD_TIPO_OPERACION + @"',
                                                         'IdentificationSchemeIdentifier' : 'UN/ECE 5305',
                                                         'IdentificationSchemeNameText' : 'Tax Category Identifier',
                                                         'IdentificationSchemeAgencyNameText' : 'United Nations Economic Commission for Europe'
@@ -528,14 +532,14 @@ namespace ConsoleApp1
                             {
                                 'Description' : [ 
                                     {
-                                        'TextContent' : 'descripcion'
+                                        'TextContent' : '"; json = json + da.detalle[i].DESCRIPCION + @"'
                                     }
                                 ],
                                 'SellersItemIdentification' : [ 
                                     {
                                         'ID' : [ 
                                             {
-                                                'IdentifierContent' : 'codigo'
+                                                'IdentifierContent' : '"; json = json + da.detalle[i].CODIGO + @"'
                                             }
                                         ]
                                     }
@@ -546,14 +550,16 @@ namespace ConsoleApp1
                             {
                                 'PriceAmount' : [ 
                                     {
-                                        'AmountCurrencyIdentifier' : 'PEN',
+                                        'AmountCurrencyIdentifier' : '"; json = json + da.detalle[i].PRECIO + @"',
                                         'AmountContent' : '10.0000'
                                     }
                                 ]
                             }
                         ]
-                    }
-                ]
+                    },";
+        }
+
+            json = json + @"]
             }
         ]
     }";
